@@ -1,0 +1,17 @@
+{
+  "name": "li-express",
+  "version": "0.1.0",
+  "description": "Lí Express — MVP de catálogo de productos y órdenes para huéspedes",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
